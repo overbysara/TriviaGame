@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://www.valuewalk.com/wp-content/uploads/2017/04/meteor_1492616764.png");
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+}
