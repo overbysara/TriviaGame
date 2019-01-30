@@ -51,31 +51,6 @@ $(document).ready(function(){
         $("#choice-holder-3").html(thirdChoice[count]);
         $("#choice-holder-4").html(fourthChoice[count]);
     
-    // Hover CSS
-        $("#choice-holder-1").hover(function() {
-            $(this).css("color", "gray");
-        },
-        function(){
-            $(this).css("color", "black");
-        });
-        $("#choice-holder-2").hover(function() {
-            $(this).css("color", "gray");
-        },
-        function(){
-            $(this).css("color", "black");
-        });
-        $("#choice-holder-3").hover(function() {
-            $(this).css("color", "gray");
-        },
-        function(){
-            $(this).css("color", "black");
-        });
-        $("#choice-holder-4").hover(function() {
-            $(this).css("color", "gray");
-        },
-        function(){
-            $(this).css("color", "black");
-        });
     }
     $("#choice-holder-1").on("click", checkAnswer) 
     $("#choice-holder-2").on("click", checkAnswer)
