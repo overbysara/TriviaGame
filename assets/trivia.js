@@ -10,13 +10,13 @@ $(document).ready(function(){
 
 // Questions and Answer Arrays
     var question = ["The Mile High City is the capital of what state?",
-    "Denver was established by what booming industry?", "The International Olympics Committee offered Denver the opportunity to host the winter Olympics in what year? (City leaders declined the offer, citing environmental concerns and cost.)", "Denver granted women the right to vote in 1893. This was how many years before the 19th amendment?", "What animal stands outside peering into the Colorado Convention Center?",
+    "Denver was established by what booming industry?", "The International Olympics Committee offered Denver the opportunity to host the winter Olympics in what year? (City leaders declined the offer, citing environmental concerns and cost.)", "Denver granted women the right to vote in 1893. This was how many years before the 19th amendment?", "What animal stands peering into the Colorado Convention Center?",
     "How many people attend the annual Great American Beer Festival?", "Which sports team is NOT based in Denver?"];
     var answer = ["The Centennial State", "Gold mining", "1976", "27", "Big Blue Bear", "60,0000", "Thunder"];
     var firstChoice = ["The Centennial State", "Automobile manufacturing", "1983", "3", "Screaming Yellow Eagle", "10,000", "Thunder"];
     var secondChoice = ["The Golden State", "Ranching", "1950", "45", "Little Green Deer", "15,000", "Rockies"];
     var thirdChoice = ["The Sunshine State", "Gold mining", "1976", "10", "Happy Red Cougar", "23,000", "Rapids"];
-    var fourthChoice = ["The Gem State", "Ship building", "2018", "27", "Big Blue Bear", "30,000", "Avalanche"];
+    var fourthChoice = ["The Gem State", "Ship building", "2018", "27", "Big Blue Bear", "60,000", "Avalanche"];
 
 // Show & Hide Functions
     function showHolders() {
