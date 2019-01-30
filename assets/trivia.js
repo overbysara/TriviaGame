@@ -157,7 +157,7 @@ $(document).ready(function(){
     }
 
 // Start Game On Click
-  $(".start").on("click", function() {
+$(".btn").on("click", function() {
     startGame();
   });
 });
